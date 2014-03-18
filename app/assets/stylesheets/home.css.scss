@@ -19,14 +19,9 @@
 	background-image:url('computer_2_semi_blurred.png');
 	background-size:1600px auto;
 	background-repeat:no-repeat;
-
-	/*-webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);*/
 }
 
+/* Middle wrapper with title and subtitle */
 .home-container .title-wrapper {
 	margin-left:auto;
   margin-right:auto;
@@ -41,7 +36,6 @@
   margin-right:auto;
   position: relative;
   padding-top: 100px;
-  /*padding-right: 450px;*/
   text-align: center;
   font-size: 100px;
 	color: #193441;
@@ -77,10 +71,64 @@
 	color: #FCFFF5;
 }
 
+
+/* About section below start button */
+.home-container .about-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 1000px;
+	height: 200px;
+	color: #FCFFF5;
+}
+
+.about-wrapper .about-cell-one {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	float: left;
+	margin-left: 100px;
+	width: 400px;
+	height: 50px;
+	font-size: 30px;
+}
+
+.about-cell-one .sub-title {
+	padding-top: 10px;
+	width: 400px;
+	height: 150px;
+	color: #FCFFF5;
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.about-wrapper .about-cell-two {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	margin-left: 100px;
+	float: left;
+	width: 400px;
+	height: 200px;
+	font-size: 30px;
+}
+
+.about-cell-two .sub-title {
+	padding-top: 10px;
+	width: 400px;
+	height: 150px;
+	color: #FCFFF5;
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/* Opacity div with three sections */
 .bottom-wrapper {
 	margin-left:auto;
   margin-right:auto;
-  margin-top: 180px;
+  margin-top: -57px;
   height: 200px;
   background-color: #FCFFF5;
   opacity: .15;
@@ -102,8 +150,8 @@
 	background-color: blue;	
 }
 
-
-.footer-container {
+/* Footer for information about iOS Academy */
+.home-container .footer-container {
 	margin-top: -20px;
 	margin-left:auto;
   margin-right:auto;
