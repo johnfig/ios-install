@@ -27,8 +27,7 @@
   margin-right:auto;
   width: 600px;
   height: 550px;
-  background-color: #FCFFF5;
-  opacity: .7;
+  background: rgba(252, 255, 245, .7);
 }
 
 .home-container .title {
@@ -64,10 +63,12 @@
 	text-align: center;
 	font-size: 30px;
 	color: #193441;
+	border: solid 1px #193441;
 }
 
 .home-container .start-now:hover {
-	opacity: .8;
+	background-color: #193441;
+	border: solid 1px #193441;
 	color: #FCFFF5;
 }
 
