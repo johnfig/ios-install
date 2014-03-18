@@ -13,31 +13,67 @@
 .home-container {
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 100px;
 	height: 800px;
 	width: 100%;
-	background-image:url('computer_2.png');
+	background-image:url('computer_2_semi_blurred.png');
 	background-size:1500px auto;
 	background-repeat:no-repeat;
 
-/*	-webkit-filter: blur(10px);
+	/*-webkit-filter: blur(10px);
   -moz-filter: blur(10px);
   -o-filter: blur(10px);
   -ms-filter: blur(10px);
   filter: blur(10px);*/
 }
 
+.home-container .title-wrapper {
+	margin-left:auto;
+  margin-right:auto;
+  width: 600px;
+  height: 550px;
+  background-color: white;
+  opacity: .7;
+}
+
 .home-container .title {
 	margin-left:auto;
   margin-right:auto;
-  float: center;
-  font-size: 60px;
-	color: white;
+  position: relative;
+  padding-top: 100px;
+  /*padding-right: 450px;*/
+  text-align: center;
+  font-size: 100px;
+	color: #193441;
 }
 
 .home-container .sub-title {
 	margin-left:auto;
   margin-right:auto;
-  float: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
 	color: white;
+	font-size: 40px;
+	color: #193441;
+}
+
+.home-container .start-now {
+	margin-left:auto;
+  margin-right:auto;
+	position: relative;
+	padding-top: 25px;
+	width: 200px;
+	height: 60px;
+	background-color: #91AA9D;
+	text-align: center;
+	font-size: 30px;
+	color: #193441;
+}
+
+.home-container .start-now:hover {
+	opacity: .8;
+	color: #FCFFF5;
 }
 
