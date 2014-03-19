@@ -3,4 +3,12 @@ IosInstall::Application.routes.draw do
 
   get 'steps/upgrade_mac'
   get 'steps/install_xcode'
+  get 'steps/command_line'
+
+  get 'steps/homebrew'
+  get 'steps/install_git'
+  get 'steps/rvm_and_ruby'
+  get 'steps/rails'
+  get 'steps/cocoapods'
+  get 'steps/congrats'
 end
