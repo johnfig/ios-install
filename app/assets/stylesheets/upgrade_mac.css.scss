@@ -1,8 +1,85 @@
 .upgrade-mac-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -25px;
   width: 100%;
-  height: 1000px;
-  background: rgba(190, 212, 212, 1);
+  height: 100%;
+  background-color: #91AA9D;
+
+  /* Footer for information about iOS Academy */
+  .header-container {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px 0 0 150px;
+    padding-right: 150px;
+    position: relative;
+    height: 65px;
+    background-color: #FCFFF5;
+    color: #3E606F;
+
+    .cell-one {
+      display:inline;
+      float: left
+    }
+
+    .cell-two {
+      padding-left: 15px;
+      padding-top: 2px;
+      display:inline;
+      float: left;
+      font-size: 40px;
+
+    }
+  }
+
+  .body-container {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    width: 800px;
+    height: 800px;
+    background-color: #91AA9D;
+  
+    .title-container {
+      padding: 40px 0 40px 0;
+      text-align: center;
+      color: #FCFFF5;
+      font-size: 40px;
+      /*background-color: red;*/
+    }
+
+    .step-one {
+      padding: 20px 0 20px 0;
+      color: #FCFFF5;
+      font-size: 24px;
+      /*background-color: red;*/
+    }
+  }
+
+
+  /* Footer for information about iOS Academy */
+  .footer-container {
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 25px 0 0 150px;
+    padding-right: 150px;
+    position: relative;
+    height: 60px;
+    background-color: #FCFFF5;
+    color: #3E606F;
+
+    .cell-one {
+      display:inline;
+      float: left
+    }
+
+    .cell-two {
+      padding-left: 15px;
+      padding-top: 2px;
+      display:inline;
+      float: left;
+      font-size: 30px;
+
+    }
+  }
 }
