@@ -5,6 +5,7 @@ IosInstall::Application.routes.draw do
   get 'steps/command_line'
   get 'steps/homebrew'
   get 'steps/install_git'
+  get 'steps/configure_git'
   get 'steps/rvm_and_ruby'
   get 'steps/rails'
   get 'steps/cocoapods'
