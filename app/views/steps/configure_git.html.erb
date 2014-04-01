@@ -1,4 +1,4 @@
-<div class="install-git-container">
+<div class="configure-git-container">
 
   <div class="header-container">
     <div class="cell-container">
@@ -13,27 +13,30 @@
 
   <div class="body-container"> 
     <div class="title-container">
-      Install Git
+      Configure Git
     </div>
     <div class="step-title">
       1. In your terminal type
     </div>
     <div class="step-code">
-      <span style="color:rgb(40,160,160)">$</span> brew install git
+      <span style="color:rgb(40,160,160)">$</span> git config --global user.name “Your Actual Name”
     </div>
     <div class="step-title">
-      2. Verify it was downloaded by typing
+      2. Then type
     </div>
     <div class="step-code">
-      <span style="color:rgb(40,160,160)">$</span> git –-version
+      <span style="color:rgb(40,160,160)">$</span> git config --global user.email “Your Actual Email”
     </div>
     <div class="step-title">
-      3. You should see a result similar to this with a number for the x
+      3. To verify your configuration, type
     </div>
     <div class="step-code">
-      git version 1.8.x
+      <span style="color:rgb(40,160,160)">$</span> git config -l
     </div>
-    <a href="/steps/install_git">
+    <div class="step-tip">
+      <strong>PRO TIP</strong>: Think of <span style="color:yellow">Git</span> as the Google Docs of code that allows multiple developers to work on the same project simultaneously. <br><br>Git <span style="color:yellow">version control</span> has many features that are very handy for making sure you can store many versions of code at once to revert if anything unfortunate happens or to examine old versions of code.
+    </div>
+    <a href="/steps/rvm_and_ruby">
       <div class="next-button">
         Next Step
       </div>
