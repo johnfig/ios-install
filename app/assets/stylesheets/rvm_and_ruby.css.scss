@@ -1,3 +1,133 @@
 .rvm-and-ruby-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(148, 219, 163);
+
+  /* Footer for information about iOS Academy */
+  .header-container {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px 0 0 150px;
+    padding-right: 150px;
+    position: relative;
+    height: 65px;
+    background-color: #FCFFF5;
+    color: #3E606F;
+
+    .cell-container {
+      width: 800px;
+      float:center;
+
+      .cell-one {
+        display:inline;
+        float: left
+      }
+
+      .cell-two {
+        padding-left: 15px;
+        padding-top: 2px;
+        display:inline;
+        float: left;
+        font-size: 40px;
+      }
+    }
+  }
+
+  .body-container {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    width: 800px;
+    height: 1700px;
+    background-color: rgb(148, 219, 163);
   
-}
+    .title-container {
+      padding: 80px 0 10px 0;
+      text-align: center;
+      color: #3E606F;
+      font-size: 40px;
+    }
+
+    .step-title {
+      padding: 50px 0 25px 0;
+      color: #3E606F;
+      font-size: 24px;
+    }
+
+    .step-tip {
+      padding: 20px 20px 20px 20px;
+      margin-bottom: 40px;
+      line-height: 22px;
+      background-color: rgba(25, 52, 65, .6);
+      color: #FCFFF5;
+      font-size: 18px;
+    }
+
+    .step-code {
+      padding: 20px 20px 20px 20px;
+      margin-bottom: 40px;
+      line-height: 22px;
+      background-color: black;
+      color: #FCFFF5;
+      font-size: 18px;
+    }
+
+    .step-image {
+      color: #FCFFF5;
+      font-size: 24px;
+    }
+
+    .next-button {
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      float: center;
+      width: 200px;
+      height: 55px;
+      background-color: #FCFFF5;
+      border: solid 1px #D1DBBD;
+      color: #193441;
+      text-align: center;
+      font-size: 30px;
+      
+    }
+
+    .next-button:hover {
+      margin-left: auto;
+      margin-right: auto;
+      float: center;
+      background-color: #3E606F;
+      color: #FCFFF5;
+      border: solid 1px #D1DBBD;
+    }    
+  }
+
+
+  /* Footer for information about iOS Academy */
+  .footer-container {
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 25px 0 0 150px;
+    padding-right: 150px;
+    position: relative;
+    height: 60px;
+    background-color: #FCFFF5;
+    color: #3E606F;
+
+    .cell-one {
+      display:inline;
+      float: left
+    }
+
+    .cell-two {
+      padding-left: 15px;
+      padding-top: 2px;
+      display:inline;
+      float: left;
+      font-size: 30px;
+    }
+  }
+} 
