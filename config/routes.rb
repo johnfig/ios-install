@@ -9,5 +9,6 @@ IosInstall::Application.routes.draw do
   get 'steps/rvm_and_ruby'
   get 'steps/rails'
   get 'steps/cocoapods'
+  get 'steps/first_app'
   get 'steps/congrats'
 end
